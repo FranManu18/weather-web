@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Weather Web</h1>
+    <form>
+      <div class="city-section">
+        <label for="city"> Write a city: </label>
+        <input type="text" id="city" name="city" />
+      </div>
+      <div class="hour-section">
+        <label for="time"> Select an hour(0-23): </label>
+        <input type="number" id="time" name="time" min="0" max="23" />
+      </div>
+      <button type="submit">Ver</button>
+    </form>
+    <div class="info">
+      <p class="date"></p>
+      <p class="temp"></p>
+      <p class="humidity"></p>
+      <p class="description"></p>
+      <img src="#" />
+    </div>
+    <br />
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
